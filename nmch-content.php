@@ -4,7 +4,7 @@ Plugin Name: NMCH Content Plugin
 Plugin URI: http://webrenovationexpert.com
 Description: Adapted version by Catherine Waldron. Adds html content of past shows page to main content area by using a short code.
 Author: Catherine Waldron
-Version: 1.0
+Version: 1.1
 */
 
 
@@ -13,7 +13,7 @@ Version: 1.0
  function past_shows() {
 
 
-  $pastshows =  include('includes/pastshows-include.php');
+  $pastshows =  include('includes/shows-include.php');
 
   return $pastshows;
 

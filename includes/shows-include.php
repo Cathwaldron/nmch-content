@@ -1,66 +1,154 @@
-     
-<section>      
-  <h2>Past Shows
-  </h2>
-  <p>Below is the complete list of past performances.
+<div style="text-align:left;">
+
+  <p>Below is the complete list of upcoming and past performances.
   </p> 
-
-
-    <div id="seasonlist" >
-      <ul>
-        
-        <li><a href="#a30thSeason" id="a30thlink">30th Season: 2017-2018</a></li>       
-        <li><a href="#a29thSeason" id="a29thlink">29th Season: 2016-2017</a></li> 
-        <li><a href="#a28thSeason" id="a28thlink">28th Season: 2015-2016</a></li>       
-        <li><a href="#a27thSeason" id="a27thlink">27th Season: 2014-2015</a></li>     
-        <li><a href="#a26thSeason" id="a26thlink">26th Season: 2013-2014</a></li>       
-        <li><a href="#a25thSeason" id="a25thlink">25th Season: 2012-2013</a></li>       
-        <li><a href="#a24thSeason" id="a24thlink">24th Season: 2011-2012</a></li>     
-        <li><a href="#a23rdSeason" id="a23rdlink">23rd Season: 2010-2011</a></li>
-        <li><a href="#a22ndSeason" id="a22ndlink">22nd Season: 2009-2010</a></li>
-        <li><a href="#a21stSeason" id="a21stlink">21st Season: 2008-2009</a></li>
-        <li><a href="#a20thSeason" id="a20thlink">20th Season: 2007-2008</a></li>
-        <li><a href="#a19thSeason" id="a19thlink">19th Season: 2006-2007</a></li>
-        <li><a href="#a18thSeason" id="a18thlink">18th Season: 2005-2006</a></li>
-        <li><a href="#a17thSeason" id="a17thlink">17th Season: 2004-2005</a></li>
-        <li><a href="#a16thSeason" id="a16thlink">16th Season: 2003-2004</a></li>
-        <li><a href="#a15thSeason" id="a15thlink">15th Season: 2002-2003</a></li>
-        <li><a href="#a14thSeason" id="a14thlink">14th Season: 2001-2002</a></li>
-        <li><a href="#a13thSeason" id="a13thlink">13th Season: 2000-2001</a></li>
-        <li><a href="#a12thSeason" id="a12thlink">12th Season: 1999-2000</a></li>
-        <li><a href="#a11thSeason" id="a11thlink">11th Season: 1998-1999</a></li>
-        <li><a href="#a10thSeason" id="a10thlink">10th Season: 1997-1998</a></li>
-        <li><a href="#a9thSeason" id="a9thlink">&nbsp;9th Season: 1996-1997</a></li>
-        <li><a href="#a8thSeason" id="a8thlink">&nbsp;8th Season: 1995-1996</a></li>
-        <li><a href="#a7thSeason" id="a7thlink">&nbsp;7th Season: 1994-1995</a></li>
-        <li><a href="#a6thSeason" id="a6thlink">&nbsp;6th Season: 1993-1994</a></li>
-        <li><a href="#a5thSeason" id="a5thlink">&nbsp;5th Season: 1992-1993</a></li>
-        <li><a href="#a4thSeason" id="a4thlink">&nbsp;4th Season: 1991-1992</a></li>
-        <li><a href="#a3rdSeason" id="a3rdlink">&nbsp;3rd Season: 1990-1991</a></li>
-        <li><a href="#a2ndSeason" id="a2ndlink">&nbsp;2nd Season: 1989-1990</a></li>
-        <li><a href="#a1stSeason" id="a1stlink">&nbsp;1st Season: 1988-1989</a></li>
-      </ul>
-    <div class="clear"></div>
-  </div>    
-
-<!-- the js function seasonReverse() will reverse the order of seasons to display the earliest first. Temp solution until I  revise to generate past performances from object array to permit search, filter by artist,  and other kinds of manipulation. The season detail is generated from php includes and are in reverse chrono order -->
-
-</section>    
+  
 <!--start list of past performance in reverse chronological order  -->
 
-<div style="height:auto;">   
+<div class="showlist">   
+
+<?php foreach ($seasons as $season) ?> {
+<section class="season <?php echo($season['number']; ?>">
+<?php echo('<!--start season ' . $season['number'] . ' ' . $season['start_year'] . '-' . $season['end_year'] . '-->'; ?>
+
+
+<div class="showcard">
+<h2>Season <?php echo($season['number']. ' (' . $season['start_year'] . '-' . $season['end_year'] . ')' ); ?> </h2>
+<h3>Shows</h3>
+<ul class="seasonshows">
+<?php foreach ($season['shows'] as $show) {
+<li class="showdate20230318"><a href="/20230318/">
+Kerri Powers, Jim Trick opens - October 22, 2022
+</a> <br>Music begins at 7:30 pm. Tickets are cash at door; reservations encouraged but not required. Admission is $20; for age 18 and under $10.</li>
+<li class="showdate20230415"><a href="/20230415/">
+Kerri Powers, Jim Trick opens - October 22, 2022
+</a> <br>Music begins at 7:30 pm. Tickets are cash at door; reservations encouraged but not required. Admission is $20; for age 18 and under $10.</li>
+<li class="showdate20230518"><a href="/20230518/">
+Kerri Powers, Jim Trick opens - October 22, 2022
+</a> <br>Music begins at 7:30 pm. Tickets are cash at door; reservations encouraged but not required. Admission is $20; for age 18 and under $10.</li>
+
+</ul>
+<h3>Past Shows</h3>
+<ul class="seasonshows">
+
+<li class="showdate20221022"><a href="/20221022/">
+Kerri Powers, Jim Trick opens - October 22, 2022
+</a></li>
+</ul>
+
+<p>More live events coming soon! Join our <a href="https://newmooncoffeehouse.us2.list-manage.com/subscribe?u=2b8cdea8779eae241615930e8&id=16992dc713">email list</a> to stay up-to-date. </p>
+<br><br>
+
+<h2>Season 33 (2020-2021) Past Virtual Shows</h2>
+
+<div class="showcard">
+<h3><span style="font-size:.8em;">October 29, 2020</span> Ellis Paul with Alice Howe and surprise guests Regie Gibson and Rev. Robert Jones</h3>
+<p>This virtual concert featured Ellis Paul and opener Alice Howe with special surprise guests Regie Gibson and Rev. Robert Jones at the Zoom After-Party.<br>
+<br>This event was a co-presentation of Music on Centre in West Roxbury (Theodore Parker Church)  and the New Moon Coffeehouse in Haverhill. Please support the performers, follow them on social media, and keep attending livestream shows. Here are some links to support these performers and ways to contribute to the virtual tip jar for this show.<br>
+</p>
+<h4>Ellis Paul</h4>
+<p><ul><li>Ellis&apos; Music &amp; More Facebook page:  <a href="https://www.facebook.com/ellispaulmusic">www.facebook.com/ellispaulmusic</a></li>
+<li>Ellis Paul YouTube channel at <a href="https://www.youtube.com/user/ellispaul">www.youtube.com/user/ellispaul</a>
+</li>
+<li>In addition to following Ellis Paul on Facebook and YouTube, you can become an Ellis Paul Patreon supporter: <a href="http://www.patreon.com/ellispaul">www.patreon.com/ellispaul</a></li>
+</ul>
+
+<h4>Alice Howe</h4>
+<ul><li>You can watch Inside Live with Alice & Freebo every Wednesday at 8pm EDT on YouTube & Facebook: 
+<a href="https://www.youtube.com/alicehowemusic">www.youtube.com/alicehowemusic</a> and <a href="https://www.facebook.com/alicehowemusic">www.facebook.com/alicehowemusic</a>. On Nov. 4 the guest  is an amazing guitarist named Michael Lemmo, the Nov. 11 guest is Scarlet Rivera (of Bob Dylan’s Rolling Thunder Review fame).</li><li>
+You can become a Patreon supporter: <a href="">www.patreon.com/alicehowe</a></li><li>
+Alice Howe's Venmo is @alicehowemusic and her PayPal is <a href="https://www.paypal.me/alicehowemusic">www.paypal.me/alicehowemusic</a></li>
+</ul>
+
+<h4>Regie Gibson</h4>
+<ul><li>Originally from Chicago, Regie Gibson lives in the Boston area and is active in local poetry performance and spoken word scene. A playwright, poet, and writing teacher as well as award-winning performer, during the pandemic Regie has been appearing at various venues online, including at Richard Cambridge&apos;s Poet&apos;s Theater, which has its online home at the 8/30 Club, <a href="https://0830club.com">0830club.com</a>. <br>Regie&apos;s website is <a href="http://regiegibson.com">regiegibson.com</a>.
+</li></ul>
+<p>&nbsp;</p>
+<h4>Rev. Robert Jones</h4>
+<ul><li>Visit <a href="https://www.tamulevich.com">www.tamulevich.com</a> for Rev. Robert Jones’ s show schedule.</li><li>
+The Sat. November 7 show begins at 7:30 p.m. - it's sponsored by the Linden Tree Coffeehouse is on Sat. Nov. 7 at 7:30 via Facebook and Youtube. <a href="http://thereadingpost.com/2020/10/27/linden-tree-coffeehouse-the-american-experience-from-roots-to-rap/"> See the details...</a>
+</li>
+</ul>
+</div>
+<br />
+<hr>
+<br />
+
+
+<div class="showcard"><h3><span style="font-size:.8em;">Thurs. Sept 10, 2020</span> Don White, Chelsea Berry opening, surprise guests Ellis Paul, Christine Lavin</h3><p>This was our first virtual show, and it was wonderful to gather online after so many months. Don White continues to perform every Thursday on his <a href="https://www.youtube.com/channel/UCYZ0EmwlP0HEIiDkma8fiNA">YouTube channel</a>. He has been providing mentorship and guidance to other artists and venues to figure out how to gather online during this pandemic, and for this the folk music community, and the performing arts community, owe him admiration and gratitude. Truly we could not have figured out how to do this without Don&apos;s leadership and support. Plus Don is super talented, entertaining, and just the thing you need when you&apos;re at your wit&apos;s end during these crazy times. Follow Don on <a href="https://www.facebook.com/don.white.7773">Facebook</a> to keep up with the latest events and get all the details.<br>
+Chelsea Berry is an accomplished singer-songwriter who has toured with Livingston Taylor. She now lives in Maine, in a remote, Internet-challenged location. For the virtual show Chelsea borrowed her neighbor's living room that has Internet. Her website is <a href="https://www.chelseaberry.com/">www.chelseaberry.com/</a>. </p>
+<br /><br /></div>
+<br />
+<section style="text-align: left;">
+<div class="showcard">
+<h2>Season 32 (2019-2020) Past Shows</h2>
+<!--start 32nd season 2019-2020 -->
+<div class="showcard">Sept 21, 2019 Don White, Sway opens</div>
+<div class="showcard">October 2019 Tommy Sands, Stefilia's Stone opens</div>
+<div class="showcard">November 16, 2019 The Bombadils, Fred Schuetze opens</div>
+<div class="showcard"><a href="/20200118-buskin-garcia-nathans-ronstadt/">January 18, 2020 Double Duo Night: Joshua Garcia &amp; Sophie Buskin and Aaron Nathans &amp; Michael Ronstadt</a></div>
+<div class="showcard"><a href="/20200215-rev-robert-jones-eric-kilburn/">February 15, 2020 Rev. Robert Jones, Eric Kilburn opens</a></div>
+
+<br />
+<br />
+<br />
+</div>
+<!--start 31st season 2018-2019 -->
+<div class="showcard">
+<h2>Season 31 2018-2019</h2>
+
+<ul class="seasonshows">
+<li class="showdate20180915"><a href="/20180915/">
+Guy Davis with Carolyn Waters opening Sep 15, 2018
+</a></li>
+<li class="showdate20181020"><a href="/20181020/">
+Mustard’s Retreat with Jon Svetkey opening Oct 20, 2018
+</a>
+</li>
+<li class="showdate20181117"><a href="/20181117/">
+James Keelaghan with Susan Cattaneo opening Nov 17, 2018
+</a>
+</li>
+<!--
+<li class="showdate20190119"><a href="/20190119/">
+Squeezebox Stompers Jan 19, 2019
+</a>
+</li>
+-->
+<li class="showdate20190216"><a href="/20190216/">
+Regie Gibson and Tem Blessed double bill Feb 16, 2019
+</a>
+</li>
+
+<li class="showdate20190316"><a href="/20190316/">
+Abbie Gardner with Rupert Wates opening Mar 16, 2019
+</a>
+</li>
+
+<li class="showdate20190420"><a href="/20190420/">
+Meeting Across the Water with Dean Stevens opening Apr 20, 2019
+</a>
+</li>
+<li class="showdate20190518"><a href="/20190518/">
+Joe Jencks with Kim Moberg opening May 18, 2019
+</a>
+</li>
+</ul>
+</div>
+
+<div class="showcard">  
 <!--start 30th season 2017-2018 -->
     <section id="a30thSeason" class="pastseason">&nbsp;
       <div class="seasondetail">
         <div class="seasonnumber"><a href="#a30thlink">Season 30</a>
         </div> 
-        <div class="seasonposter"><!-- <a href="pdf/SCHED17-18.pdf">Season Poster</a> -->
+        <div class="seasonposter"><!-- <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED17-18.pdf">Season Poster</a> -->
         </div>
         <div class="seasonyear">2017-2018
         </div>
       </div>
-
-      <div id = "pastshowblock30" class="pastshowdetail">
+</div>
+      <div id="pastshowblock30" class="pastshowdetail">
 <!--  
 Season 30
 2017-2018
@@ -93,7 +181,7 @@ Season 30
       <div class="seasondetail">
         <div class="seasonnumber"><a href="#a29thlink">Season 29</a>
         </div> 
-        <div class="seasonposter"><!-- <a href="pdf/SCHED16-17.pdf">Season Poster</a> -->  
+        <div class="seasonposter"><!-- <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED16-17.pdf">Season Poster</a> -->  
         </div>
         <div class="seasonyear">2016-2017
         </div>
@@ -125,14 +213,58 @@ Season 29
 </ul>
 
       </div>
+
+</section>
+
+<section>
+<!--start 28th season 2015-2016 -->
+    <section id="a28thSeason" class="pastseason">
+      <div class="seasondetail">
+        <div class="seasonnumber"><a href="#a28thlink">Season 28</a>
+        </div> 
+      <div class="seasonposter"><!--  <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED15-16.pdf">Season Poster</a> -->
+        </div>
+        <div class="seasonyear">2015-2016
+        </div>
+      </div>
+
+      <div id = "pastshowblock28" class="pastshowdetail">  
+<!--  
+Season 28 2015-2016
+-->
+<ul>
+  <li>Potpourri of local musicians:
+Quentin Callewaert, Dean Stevens, Kangaralien,
+Meg Rayne, Aidan and Connor Wertz, and Paul Prue Sep 19, 2015
+  </li>
+  <li>Jez Lowe, Monica Rizzio opens Oct 17, 2015
+  </li>
+  <li>Les Sampou, Bird Mancini opens Nov 21, 2015
+  </li>
+  <li>Chelsea Berry, Fozzie Hill opens Jan 16, 2016
+  </li>
+  <li>Peter Mulvey, Lynne Taylor opens Feb 20, 2016
+  </li>
+  <li>Catie Curtis, The Levins open Mar 19, 2016
+  </li>
+  <li>Squeezebox Stompers Apr 16, 2016
+  </li>
+  <li>Dave Gunning, Aidan and Connor Wertz open May 21, 2016 
+  </li>                  
+</ul>
+
+</div>
       
     </section>  
+
+<!--end 28th season 2015-2016 -->
+
 <!--start 27th season 2014-2015 -->
     <section id="a27thSeason" class="pastseason">
       <div class="seasondetail">
         <div class="seasonnumber"><a href="#a27thlink">Season 27</a>
         </div> 
-        <div class="seasonposter"><a href="pdf/SCHED14-15.pdf">Season Poster</a>
+        <div class="seasonposter"><a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED14-15.pdf">Season Poster</a>
         </div>
         <div class="seasonyear">2014-2015
         </div>
@@ -165,14 +297,15 @@ Season 27
 
       </div>
       
-    </section>      
+    </section>     
+<!--end 27th season 2014-2015 -->     
 
 <!--start 26th season 2013-2014 -->
     <section id="a26thSeason" class="pastseason">
       <div class="seasondetail">
         <div class="seasonnumber"><a href="#a26thlink">Season 26</a>
         </div> 
-        <div class="seasonposter"><a href="pdf/SCHED13-14.pdf">Season Poster</a>
+        <div class="seasonposter"><a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED13-14.pdf">Season Poster</a>
         </div>
         <div class="seasonyear">2013-2014
         </div>      
@@ -214,7 +347,7 @@ Season 26
       <div class="seasondetail">
         <div class="seasonnumber"><a href="#a25thlink">Season 25</a>
         </div> 
-        <div class="seasonposter"><a href="pdf/SCHED12-13.pdf">Season Poster</a>
+        <div class="seasonposter"><a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED12-13.pdf">Season Poster</a>
         </div>
         <div class="seasonyear">2012-2013
         </div>
@@ -257,7 +390,7 @@ Season 25
       <div class="seasondetail">
         <div class="seasonnumber"><a href="#a23rdlink">Season 24</a>
         </div> 
-        <div class="seasonposter"><a href="pdf/SCHED11-12.pdf">Season Poster</a>
+        <div class="seasonposter"><a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED11-12.pdf">Season Poster</a>
         </div>
         <div class="seasonyear">2011-2012
         </div>
@@ -302,7 +435,7 @@ Season 24
       <div class="seasondetail">
         <div class="seasonnumber"><a href="#a23rdlink">Season 23</a>
         </div> 
-        <div class="seasonposter"><a href="pdf/SCHED10-11.pdf">Season Poster</a>
+        <div class="seasonposter"><a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED10-11.pdf">Season Poster</a>
         </div>
         <div class="seasonyear">2010-2011
         </div>
@@ -346,7 +479,7 @@ Season 23
             Season 22
           </a>
         </div> 
-        <div class="seasonposter"><a href="pdf/SCHED09-10.pdf">Season Poster</a>
+        <div class="seasonposter"><a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED09-10.pdf">Season Poster</a>
         </div>
         <div class="seasonyear">2009-2010
         </div>
@@ -395,7 +528,7 @@ Season 22
           </a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED08-09.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED08-09.pdf">
             Season Poster
           </a>
         </div>
@@ -443,7 +576,7 @@ Season 21
           </a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED07-08.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED07-08.pdf">
             Season Poster
           </a>
         </div>
@@ -493,7 +626,7 @@ Season 20
           </a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED06-07.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED06-07.pdf">
             Season Poster
           </a>
         </div>
@@ -539,7 +672,7 @@ Season 19
           </a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED05-06.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED05-06.pdf">
             Season Poster
           </a>
         </div>
@@ -582,7 +715,7 @@ Season 18
         <div class="seasonnumber"><a href="#a17thlink">Season 17</a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED04-05.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED04-05.pdf">
             Season Poster
           </a>
         </div>
@@ -627,7 +760,7 @@ Season 17
           </a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED03-04.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED03-04.pdf">
             Season Poster
           </a>
         </div>
@@ -674,7 +807,7 @@ Season 16
         Season 15</a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED02-03.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED02-03.pdf">
             Season Poster
           </a>
         </div>
@@ -714,7 +847,7 @@ Season 15
 
 
 <!--start 14th season 2001-2002 -->
-    <section id="a14thSeason" class="pastseason">14th season
+    <section id="a14thSeason" class="pastseason">
 
       <div class="seasondetail">
         <div class="seasonnumber">
@@ -722,7 +855,7 @@ Season 15
             Season 14</a>
           </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED01-02.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED01-02.pdf">
             Season Poster
           </a>
         </div>
@@ -773,7 +906,7 @@ Season 14
           </a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED00-01.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED00-01.pdf">
             Season Poster
           </a>
         </div>
@@ -822,7 +955,7 @@ Season 13
         <div class="seasonnumber"><a href="#a12thlink">Season 12</a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED99-00B.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED99-00B.pdf">
             Season Poster
           </a>
         </div>
@@ -874,7 +1007,7 @@ Season 12
           </a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED98-99.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED98-99.pdf">
             Season Poster
           </a>
         </div>
@@ -930,7 +1063,7 @@ Season 11
           </a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED97-98.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED97-98.pdf">
             Season Poster
           </a>
         </div>
@@ -986,7 +1119,7 @@ Season 10
           </a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED96-97.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED96-97.pdf">
             Season Poster
           </a>
         </div>
@@ -1044,7 +1177,7 @@ Season 09
           </a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED95-96.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED95-96.pdf">
             Season Poster
           </a>
         </div>
@@ -1105,7 +1238,7 @@ Season 08
           </a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED94-95.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED94-95.pdf">
             Season Poster
           </a>
         </div>
@@ -1161,7 +1294,7 @@ Season 07
           </a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED93-94.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED93-94.pdf">
             Season Poster
           </a>
         </div>
@@ -1211,7 +1344,7 @@ Season 06
         <div class="seasonnumber"><a href="#a5thlink">Season 5</a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED92-93.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED92-93.pdf">
             Season Poster
           </a>
         </div>
@@ -1260,7 +1393,7 @@ Season 05
         <div class="seasonnumber"><a href="#a4thlink">Season 4</a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED91-92.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED91-92.pdf">
             Season Poster
           </a>
         </div>
@@ -1319,7 +1452,7 @@ Season 04
           </a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED90-91.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED90-91.pdf">
             Season Poster
           </a>
         </div>
@@ -1374,7 +1507,7 @@ Season 03
         <div class="seasonnumber"><a href="#a2ndlink">Season 2</a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED89-90.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED89-90.pdf">
             Season Poster
           </a>
         </div>
@@ -1430,7 +1563,7 @@ Season 02
         <div class="seasonnumber"><a href="#a1stlink">Season 1</a>
         </div> 
         <div class="seasonposter">
-          <a href="pdf/SCHED88-89.pdf">
+          <a href="/wp-content/uploads/2018/07/past-shows/pdf/SCHED88-89.pdf">
             Season Poster
           </a>
         </div>
@@ -1467,3 +1600,43 @@ Season 01
  
 </section> 
 
+</div>
+<section>
+<div id="seasonlist" >
+      <ul>
+        <li><a href="#a30thSeason" id="a30thlink">30th Season: 2017-2018</a></li>       
+        <li><a href="#a29thSeason" id="a29thlink">29th Season: 2016-2017</a></li> 
+        <li><a href="#a28thSeason" id="a28thlink">28th Season: 2015-2016</a></li>       
+        <li><a href="#a27thSeason" id="a27thlink">27th Season: 2014-2015</a></li>     
+        <li><a href="#a26thSeason" id="a26thlink">26th Season: 2013-2014</a></li>       
+        <li><a href="#a25thSeason" id="a25thlink">25th Season: 2012-2013</a></li>       
+        <li><a href="#a24thSeason" id="a24thlink">24th Season: 2011-2012</a></li>     
+        <li><a href="#a23rdSeason" id="a23rdlink">23rd Season: 2010-2011</a></li>
+        <li><a href="#a22ndSeason" id="a22ndlink">22nd Season: 2009-2010</a></li>
+        <li><a href="#a21stSeason" id="a21stlink">21st Season: 2008-2009</a></li>
+        <li><a href="#a20thSeason" id="a20thlink">20th Season: 2007-2008</a></li>
+        <li><a href="#a19thSeason" id="a19thlink">19th Season: 2006-2007</a></li>
+        <li><a href="#a18thSeason" id="a18thlink">18th Season: 2005-2006</a></li>
+        <li><a href="#a17thSeason" id="a17thlink">17th Season: 2004-2005</a></li>
+        <li><a href="#a16thSeason" id="a16thlink">16th Season: 2003-2004</a></li>
+        <li><a href="#a15thSeason" id="a15thlink">15th Season: 2002-2003</a></li>
+        <li><a href="#a14thSeason" id="a14thlink">14th Season: 2001-2002</a></li>
+        <li><a href="#a13thSeason" id="a13thlink">13th Season: 2000-2001</a></li>
+        <li><a href="#a12thSeason" id="a12thlink">12th Season: 1999-2000</a></li>
+        <li><a href="#a11thSeason" id="a11thlink">11th Season: 1998-1999</a></li>
+        <li><a href="#a10thSeason" id="a10thlink">10th Season: 1997-1998</a></li>
+        <li><a href="#a9thSeason" id="a9thlink">&nbsp;9th Season: 1996-1997</a></li>
+        <li><a href="#a8thSeason" id="a8thlink">&nbsp;8th Season: 1995-1996</a></li>
+        <li><a href="#a7thSeason" id="a7thlink">&nbsp;7th Season: 1994-1995</a></li>
+        <li><a href="#a6thSeason" id="a6thlink">&nbsp;6th Season: 1993-1994</a></li>
+        <li><a href="#a5thSeason" id="a5thlink">&nbsp;5th Season: 1992-1993</a></li>
+        <li><a href="#a4thSeason" id="a4thlink">&nbsp;4th Season: 1991-1992</a></li>
+        <li><a href="#a3rdSeason" id="a3rdlink">&nbsp;3rd Season: 1990-1991</a></li>
+        <li><a href="#a2ndSeason" id="a2ndlink">&nbsp;2nd Season: 1989-1990</a></li>
+        <li><a href="#a1stSeason" id="a1stlink">&nbsp;1st Season: 1988-1989</a></li>
+      </ul>
+    <div class="clear"></div>
+  </div>    
+
+<!-- the js function seasonReverse() will reverse the order of seasons to display the earliest first. Temp solution until I  revise to generate past performances from object array to permit search, filter by artist,  and other kinds of manipulation. The season detail is generated from php includes and are in reverse chrono order -->
+</section>
