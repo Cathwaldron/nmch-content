@@ -13,7 +13,7 @@ Version: 1.1
  function past_shows() {
 
 
-  $pastshows =  include('includes/shows-include.php');
+  $pastshows =  include('includes/pastshows-include.php');
 
   return $pastshows;
 
