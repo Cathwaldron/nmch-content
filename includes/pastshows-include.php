@@ -6,6 +6,51 @@
 <!--start list of past performance in reverse chronological order  -->
 
 
+<!--start 37th season 2024-2025 -->
+<section id="a37thSeason" class="pastseason">&nbsp;
+    <div class="seasondetail">
+      <div class="seasonnumber"><a href="#a37thlink">Season 37</a>
+      </div> 
+      <div class="seasonposter"><!-- <a href="/wp-content/uploads/.pdf">Season Poster</a> -->
+      </div>
+      <div class="seasonyear">2024-2025
+      </div>
+    </div>
+    <div id="pastshowblock37" class="pastshowdetail">
+<!--  
+Season 37
+2024-2025
+-->
+<h3>Upcoming Shows</h3>
+<ul> 
+<li><a href="/don-white-october-19-2024">Don White, Michelle LaPoetica opens - October 19, 2024</a>
+</li> 
+<li><a href="/alice-howe-and-freebo-november-16-2024">Alice Howe and Freebo - November 16, 2024</a>
+</li> 
+<li>Rev. Robert Jones - February 15, 2025
+</li> 
+<li>TBA March , 2025
+</li> 
+<li>Tret Fure - April 19, 2025
+</li> 
+<li>Crys Matthews - May 17, 2025
+</li>               
+</ul>
+
+<!--
+<h3>Past Shows</h3>
+
+<ul>
+<li>
+</li> 
+<li>
+</li> 
+</ul> -->
+
+    </div>
+    
+  </section> 
+
 <!--start 36th season 2023-2024 -->
 <section id="a36thSeason" class="pastseason">&nbsp;
     <div class="seasondetail">
@@ -21,28 +66,21 @@
 Season 36
 2023-2024
 -->
-<h3>Upcoming Shows</h3>
-<ul> 
 
-<li><a href="/satwater-donnelly-may-18-2024">Atwater Donnelly May 18, 2024</a>
-</li>               
-</ul>
 <h3>Past Shows</h3>
 
 <ul>
-<li>Vance Gilbert Apr 20, 2024
-</li>  
-<li>Joe Crookston Jan 20, 2024
-</li>  
-
-<li>Garnet Rogers Nov 18, 2023
-</li> 
 <li>Guy Davis Oct 21, 2023
 </li>
-
-
-              
-</ul> -->
+<li>Garnet Rogers Nov 18, 2023
+</li> 
+<li>Joe Crookston Jan 20, 2024
+</li> 
+<li>Vance Gilbert Apr 20, 2024
+</li> 
+<li>Atwater Donnelly May 18, 2024
+</li> 
+</ul>
 
     </div>
     
@@ -1679,7 +1717,8 @@ Season 01
 <section>
 <div id="seasonlist" >
       <ul>
-      <li><a href="#a36thSeason" id="a36thlink">36th Season: 2023-2024</a></li>       
+        <li><a href="#a37thSeason" id="a37thlink">37th Season: 2024-2025</a></li>       
+        <li><a href="#a36thSeason" id="a36thlink">36th Season: 2023-2024</a></li>       
         <li><a href="#a35thSeason" id="a35thlink">35th Season: 2022-2023</a></li>       
         <li><a href="#a34thSeason" id="a34thlink">34th Season: 2021-2022</a></li>       
         <li><a href="#a33rdSeason" id="a33rdlink">33rd Season: 2020-2021</a></li>       
