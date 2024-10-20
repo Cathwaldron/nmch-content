@@ -28,9 +28,7 @@ Season 37
 <li><a href="/alice-howe-and-freebo-november-16-2024">Alice Howe and Freebo - November 16, 2024</a>
 </li> 
 <li>Rev. Robert Jones - February 15, 2025
-</li> 
-<li>TBA March , 2025
-</li> 
+</li>  
 <li>Tret Fure - April 19, 2025
 </li> 
 <li>Crys Matthews - May 17, 2025
