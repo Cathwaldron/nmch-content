@@ -22,9 +22,7 @@ Season 37
 2024-2025
 -->
 <h3>Upcoming Shows</h3>
-<ul> 
-<li><a href="/don-white-october-19-2024">Don White, Michelle LaPoetica opens - October 19, 2024</a>
-</li> 
+<ul>  
 <li><a href="/alice-howe-and-freebo-november-16-2024">Alice Howe and Freebo - November 16, 2024</a>
 </li> 
 <li>Rev. Robert Jones - February 15, 2025
@@ -35,16 +33,16 @@ Season 37
 </li>               
 </ul>
 
-<!--
+
 <h3>Past Shows</h3>
 
-<ul>
+<ul> 
+<li><a href="/don-white-october-19-2024">Don White, Michelle LaPoetica opens - October 19, 2024</a>
+</li> <!--
 <li>
 </li> 
-<li>
-</li> 
-</ul> -->
-
+ -->
+ </ul>
     </div>
     
   </section> 
