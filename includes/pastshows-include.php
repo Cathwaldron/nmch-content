@@ -23,11 +23,11 @@ Season 37
 -->
 <h3>Upcoming Shows</h3>
 <ul>
-<li><a href="/">Reverend Robert B. Jones, Sr. - February 15, 2025</a>
+<li><a href="/reverend-robert-b-jones-sr-february-15-2025/">Reverend Robert B. Jones, Sr. - February 15, 2025</a>
 </li>  
-<li>Tret Fure - April 19, 2025
+<li><a href="/tret-fure-april-19-2025/">Tret Fure - April 19, 2025</a>
 </li> 
-<li>Crys Matthews - May 17, 2025
+<li><a href="/crys-matthews-may-17-2025/">Crys Matthews - May 17, 2025</a>
 </li>               
 </ul>
 
