@@ -1,10 +1,55 @@
 <div style="text-align:left;">
 
-  <p>Below is the complete list of upcoming and past performances.
-  </p> 
+
   
 <!--start list of past performance in reverse chronological order  -->
+<!--start 38th season 2024-2025 -->
+<section id="a38thSeason" class="pastseason">&nbsp;
+    <div class="seasondetail">
+      <div class="seasonnumber"><a href="#a38thlink">Season 38</a>
+      </div> 
+      <div class="seasonposter"><!-- <a href="/wp-content/uploads/.pdf">Season Poster</a> -->
+      </div>
+      <div class="seasonyear">2025-2026
+      </div>
+    </div>
+    <div id="pastshowblock38" class="pastshowdetail">
 
+<!--  
+Season 38
+2025-2026
+-->
+<h3>Upcoming Shows</h3>
+
+<ul>
+  <!--
+<li><a href="../ej-ouellette-crazy-maggy">Saturday, September 20, 2025, 7:30 pm: <strong>EJ Ouellette & Crazy Maggy</strong></a></li>
+-->
+<li><a href="../amy-gallatin-stillwaters">Saturday, October 18, 2025, 7:30 pm: <strong>Amy Gallatin & Stillwaters</strong></a></li>
+<li><a href="../abbie-gardner-carolann-solebello">Saturday, November 15, 2025, 7:30 pm: <strong>Abbie Gardner & Carolann Solebello</strong></a></li>
+<li><a href="../james-keelaghan-david-woodhead">Saturday, February 21, 2026, 7:30 pm: <strong>James Keelaghan with David Woodhead</strong></a></li>
+<li><a href="../pamela-means">Saturday, March 21, 2026, 7:30 pm: <strong>Pamela Means</strong></a></li>
+<li><a href="../claudia-schmidt-sally-rogers">Saturday, April 18, 2026, 7:30 pm: <strong>Claudia Schmidt & Sally Rogers</strong></a></li>
+</ul>
+
+
+<h3>Past Shows</h3>
+<ul>
+<li><a href="../ej-ouellette-crazy-maggy">Saturday, September 20, 2025: <strong>EJ Ouellette & Crazy Maggy</strong></a></li>
+<!--
+<li><a href="../amy-gallatin-stillwaters">Saturday, October 18, 2025: <strong>Amy Gallatin & Stillwaters</strong></a></li>
+<li><a href="../abbie-gardner-carolann-solebello">Saturday, November 15, 2025: <strong>Abbie Gardner & Carolann Solebello</strong></a></li>
+<li><a href="../james-keelaghan-david-woodhead">Saturday, February 21, 2026: <strong>James Keelaghan with David Woodhead</strong></a></li>
+<li><a href="../pamela-means">Saturday, March 21, 2026: <strong>Pamela Means</strong></a></li>
+<li><a href="../claudia-schmidt-sally-rogers">Saturday, April 18, 2026: <strong>Claudia Schmidt & Sally Rogers</strong></a></li>
+-->
+</ul>
+
+
+
+</div>
+    
+</section> 
 
 <!--start 37th season 2024-2025 -->
 <section id="a37thSeason" class="pastseason">&nbsp;
@@ -21,23 +66,19 @@
 Season 37
 2024-2025
 -->
-<h3>Upcoming Shows</h3>
-<ul>
-<li><a href="/reverend-robert-b-jones-sr-february-15-2025/">Reverend Robert B. Jones, Sr. - February 15, 2025</a>
-</li>  
-<li><a href="/tret-fure-april-19-2025/">Tret Fure - April 19, 2025</a>
-</li> 
-<li><a href="/crys-matthews-may-17-2025/">Crys Matthews - May 17, 2025</a>
-</li>               
-</ul>
 
-
-<h3>Past Shows</h3>
 
 <ul>
 <li><a href="/don-white-october-19-2024">Don White, Michelle LaPoetica opens - October 19, 2024</a>
 </li>
 <li><a href="/alice-howe-and-freebo-november-16-2024">Alice Howe and Freebo - November 16, 2024</a>
+</li>
+<li><a href="/reverend-robert-b-jones-sr-february-15-2025/">Reverend Robert B. Jones, Sr. - February 15, 2025</a>
+</li>
+<li><a href="/tret-fure-april-19-2025/">Tret Fure - April 19, 2025</a>
+</li> 
+<li><a href="/crys-matthews-may-17-2025/">Crys Matthews - May 17, 2025</a>
+</li>
  <!--
 <li>
 </li> 
@@ -46,6 +87,8 @@ Season 37
     </div>
     
   </section> 
+
+
 
 <!--start 36th season 2023-2024 -->
 <section id="a36thSeason" class="pastseason">&nbsp;
@@ -62,8 +105,6 @@ Season 37
 Season 36
 2023-2024
 -->
-
-<h3>Past Shows</h3>
 
 <ul>
 <li>Guy Davis Oct 21, 2023
