@@ -3,7 +3,7 @@
 
   
 <!--start list of past performance in reverse chronological order  -->
-<!--start 38th season 2024-2025 -->
+<!--start 38th season 2025-2026 -->
 <section id="a38thSeason" class="pastseason">&nbsp;
     <div class="seasondetail">
       <div class="seasonnumber"><a href="#a38thlink">Season 38</a>
@@ -24,9 +24,8 @@ Season 38
 <ul>
   <!--
 <li><a href="../ej-ouellette-crazy-maggy">Saturday, September 20, 2025, 7:30 pm: <strong>EJ Ouellette & Crazy Maggy</strong></a></li>
--->
-<li><a href="../amy-gallatin-stillwaters">Saturday, October 18, 2025, 7:30 pm: <strong>Amy Gallatin & Stillwaters</strong></a></li>
 <li><a href="../abbie-gardner-carolann-solebello">Saturday, November 15, 2025, 7:30 pm: <strong>Abbie Gardner & Carolann Solebello</strong></a></li>
+-->
 <li><a href="../james-keelaghan-david-woodhead">Saturday, February 21, 2026, 7:30 pm: <strong>James Keelaghan with David Woodhead</strong></a></li>
 <li><a href="../pamela-means">Saturday, March 21, 2026, 7:30 pm: <strong>Pamela Means</strong></a></li>
 <li><a href="../claudia-schmidt-sally-rogers">Saturday, April 18, 2026, 7:30 pm: <strong>Claudia Schmidt & Sally Rogers</strong></a></li>
@@ -36,9 +35,9 @@ Season 38
 <h3>Past Shows</h3>
 <ul>
 <li><a href="../ej-ouellette-crazy-maggy">Saturday, September 20, 2025: <strong>EJ Ouellette & Crazy Maggy</strong></a></li>
-<!--
-<li><a href="../amy-gallatin-stillwaters">Saturday, October 18, 2025: <strong>Amy Gallatin & Stillwaters</strong></a></li>
+<li><a href="../amy-gallatin-stillwaters">Saturday, October 18, 2025: <strong>Amy Gallatin & Stillwaters</strong></a></li>
 <li><a href="../abbie-gardner-carolann-solebello">Saturday, November 15, 2025: <strong>Abbie Gardner & Carolann Solebello</strong></a></li>
+<!--
 <li><a href="../james-keelaghan-david-woodhead">Saturday, February 21, 2026: <strong>James Keelaghan with David Woodhead</strong></a></li>
 <li><a href="../pamela-means">Saturday, March 21, 2026: <strong>Pamela Means</strong></a></li>
 <li><a href="../claudia-schmidt-sally-rogers">Saturday, April 18, 2026: <strong>Claudia Schmidt & Sally Rogers</strong></a></li>
@@ -1754,6 +1753,7 @@ Season 01
 <section>
 <div id="seasonlist" >
       <ul>
+        <li><a href="#a38thSeason" id="a38thlink">38th Season: 2025-2026</a></li>       
         <li><a href="#a37thSeason" id="a37thlink">37th Season: 2024-2025</a></li>       
         <li><a href="#a36thSeason" id="a36thlink">36th Season: 2023-2024</a></li>       
         <li><a href="#a35thSeason" id="a35thlink">35th Season: 2022-2023</a></li>       
